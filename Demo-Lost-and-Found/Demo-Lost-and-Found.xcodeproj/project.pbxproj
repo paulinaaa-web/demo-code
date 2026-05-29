@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		82C8CC7A2FC998CC006D2018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C8CC632FC998CA006D2018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C8CC6A2FC998CA006D2018;
+			remoteInfo = "Demo-Lost-and-Found";
+		};
+		82C8CC842FC998CC006D2018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C8CC632FC998CA006D2018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C8CC6A2FC998CA006D2018;
+			remoteInfo = "Demo-Lost-and-Found";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82C8CC6B2FC998CA006D2018 /* Demo-Lost-and-Found.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-Lost-and-Found.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C8CC792FC998CC006D2018 /* Demo-Lost-and-FoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-Lost-and-FoundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C8CC832FC998CC006D2018 /* Demo-Lost-and-FoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-Lost-and-FoundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		82C8CC6D2FC998CA006D2018 /* Demo-Lost-and-Found */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Demo-Lost-and-Found";
+			sourceTree = "<group>";
+		};
+		82C8CC7C2FC998CC006D2018 /* Demo-Lost-and-FoundTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Demo-Lost-and-FoundTests";
+			sourceTree = "<group>";
+		};
+		82C8CC862FC998CC006D2018 /* Demo-Lost-and-FoundUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Demo-Lost-and-FoundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C8CC682FC998CA006D2018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8CC762FC998CC006D2018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8CC802FC998CC006D2018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82C8CC622FC998CA006D2018 = {
+			isa = PBXGroup;
+			children = (
+				82C8CC6D2FC998CA006D2018 /* Demo-Lost-and-Found */,
+				82C8CC7C2FC998CC006D2018 /* Demo-Lost-and-FoundTests */,
+				82C8CC862FC998CC006D2018 /* Demo-Lost-and-FoundUITests */,
+				82C8CC6C2FC998CA006D2018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C8CC6C2FC998CA006D2018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C8CC6B2FC998CA006D2018 /* Demo-Lost-and-Found.app */,
+				82C8CC792FC998CC006D2018 /* Demo-Lost-and-FoundTests.xctest */,
+				82C8CC832FC998CC006D2018 /* Demo-Lost-and-FoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C8CC6A2FC998CA006D2018 /* Demo-Lost-and-Found */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C8CC8D2FC998CC006D2018 /* Build configuration list for PBXNativeTarget "Demo-Lost-and-Found" */;
+			buildPhases = (
+				82C8CC672FC998CA006D2018 /* Sources */,
+				82C8CC682FC998CA006D2018 /* Frameworks */,
+				82C8CC692FC998CA006D2018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				82C8CC6D2FC998CA006D2018 /* Demo-Lost-and-Found */,
+			);
+			name = "Demo-Lost-and-Found";
+			packageProductDependencies = (
+			);
+			productName = "Demo-Lost-and-Found";
+			productReference = 82C8CC6B2FC998CA006D2018 /* Demo-Lost-and-Found.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82C8CC782FC998CC006D2018 /* Demo-Lost-and-FoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C8CC902FC998CC006D2018 /* Build configuration list for PBXNativeTarget "Demo-Lost-and-FoundTests" */;
+			buildPhases = (
+				82C8CC752FC998CC006D2018 /* Sources */,
+				82C8CC762FC998CC006D2018 /* Frameworks */,
+				82C8CC772FC998CC006D2018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C8CC7B2FC998CC006D2018 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				82C8CC7C2FC998CC006D2018 /* Demo-Lost-and-FoundTests */,
+			);
+			name = "Demo-Lost-and-FoundTests";
+			packageProductDependencies = (
+			);
+			productName = "Demo-Lost-and-FoundTests";
+			productReference = 82C8CC792FC998CC006D2018 /* Demo-Lost-and-FoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82C8CC822FC998CC006D2018 /* Demo-Lost-and-FoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C8CC932FC998CC006D2018 /* Build configuration list for PBXNativeTarget "Demo-Lost-and-FoundUITests" */;
+			buildPhases = (
+				82C8CC7F2FC998CC006D2018 /* Sources */,
+				82C8CC802FC998CC006D2018 /* Frameworks */,
+				82C8CC812FC998CC006D2018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C8CC852FC998CC006D2018 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				82C8CC862FC998CC006D2018 /* Demo-Lost-and-FoundUITests */,
+			);
+			name = "Demo-Lost-and-FoundUITests";
+			packageProductDependencies = (
+			);
+			productName = "Demo-Lost-and-FoundUITests";
+			productReference = 82C8CC832FC998CC006D2018 /* Demo-Lost-and-FoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C8CC632FC998CA006D2018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					82C8CC6A2FC998CA006D2018 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					82C8CC782FC998CC006D2018 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 82C8CC6A2FC998CA006D2018;
+					};
+					82C8CC822FC998CC006D2018 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 82C8CC6A2FC998CA006D2018;
+					};
+				};
+			};
+			buildConfigurationList = 82C8CC662FC998CA006D2018 /* Build configuration list for PBXProject "Demo-Lost-and-Found" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C8CC622FC998CA006D2018;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 82C8CC6C2FC998CA006D2018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C8CC6A2FC998CA006D2018 /* Demo-Lost-and-Found */,
+				82C8CC782FC998CC006D2018 /* Demo-Lost-and-FoundTests */,
+				82C8CC822FC998CC006D2018 /* Demo-Lost-and-FoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C8CC692FC998CA006D2018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8CC772FC998CC006D2018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8CC812FC998CC006D2018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C8CC672FC998CA006D2018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8CC752FC998CC006D2018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8CC7F2FC998CC006D2018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C8CC7B2FC998CC006D2018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C8CC6A2FC998CA006D2018 /* Demo-Lost-and-Found */;
+			targetProxy = 82C8CC7A2FC998CC006D2018 /* PBXContainerItemProxy */;
+		};
+		82C8CC852FC998CC006D2018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C8CC6A2FC998CA006D2018 /* Demo-Lost-and-Found */;
+			targetProxy = 82C8CC842FC998CC006D2018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82C8CC8B2FC998CC006D2018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82C8CC8C2FC998CC006D2018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		82C8CC8E2FC998CC006D2018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo-Lost-and-Found/Demo_Lost_and_Found.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pmoehrle.Demo-Lost-and-Found";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		82C8CC8F2FC998CC006D2018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo-Lost-and-Found/Demo_Lost_and_Found.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pmoehrle.Demo-Lost-and-Found";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		82C8CC912FC998CC006D2018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pmoehrle.Demo-Lost-and-FoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-Lost-and-Found.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Demo-Lost-and-Found";
+			};
+			name = Debug;
+		};
+		82C8CC922FC998CC006D2018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pmoehrle.Demo-Lost-and-FoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-Lost-and-Found.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Demo-Lost-and-Found";
+			};
+			name = Release;
+		};
+		82C8CC942FC998CC006D2018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pmoehrle.Demo-Lost-and-FoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Demo-Lost-and-Found";
+			};
+			name = Debug;
+		};
+		82C8CC952FC998CC006D2018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pmoehrle.Demo-Lost-and-FoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Demo-Lost-and-Found";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C8CC662FC998CA006D2018 /* Build configuration list for PBXProject "Demo-Lost-and-Found" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8CC8B2FC998CC006D2018 /* Debug */,
+				82C8CC8C2FC998CC006D2018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C8CC8D2FC998CC006D2018 /* Build configuration list for PBXNativeTarget "Demo-Lost-and-Found" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8CC8E2FC998CC006D2018 /* Debug */,
+				82C8CC8F2FC998CC006D2018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C8CC902FC998CC006D2018 /* Build configuration list for PBXNativeTarget "Demo-Lost-and-FoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8CC912FC998CC006D2018 /* Debug */,
+				82C8CC922FC998CC006D2018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C8CC932FC998CC006D2018 /* Build configuration list for PBXNativeTarget "Demo-Lost-and-FoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8CC942FC998CC006D2018 /* Debug */,
+				82C8CC952FC998CC006D2018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C8CC632FC998CA006D2018 /* Project object */;
+}
